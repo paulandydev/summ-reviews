@@ -1,0 +1,75 @@
+form{
+    margin-top: 230px;
+}
+button {
+    padding: 10px;
+    color: white;
+    background-color: brown;
+    border: none;
+}
+input{
+    height: 30px;
+    width: 396px;
+    
+}
+h2{
+    background-color: rgb(5, 5, 85);
+    color: white;
+    padding-top: 2px;
+    height: 35px;
+    width: 410px;
+    border-radius: 10px;
+    /* padding: 10px; */
+    padding-bottom: 10px;
+
+}
+.container{
+    border-top: 1px solid black;
+    width: 480px;
+    margin-top: 50px;
+    margin-left: 378px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 609px;
+}
+h3{
+    margin-top: -215px;
+    color: black;
+    background-color: rgb(179 176 176 / 36%);
+    height: 50px;
+    width:410px ;
+    padding-top: 42px;
+
+}
+
+button{
+    height: 35px;
+    width: 410px;
+    background-color: blue;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.design{
+    background-color: rgb(179 176 176 / 36%);
+    width: 410px;
+    height: 300px;
+
+}
+h4{
+    margin-left: -243px;
+    padding-top: 17px;
+}
+h5{
+    margin-left: -281px;
+
+    padding-top: -24px;
+    font-size: 18px;
+}
+h6{
+    margin-left: -303px;
+
+    padding-top: 17px;
+    font-size: 18px;
+}

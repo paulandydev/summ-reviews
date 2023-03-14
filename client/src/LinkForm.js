@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './LinkForm.css'
 
 function LinkForm() {
   const [links, setLinks] = useState([]);
@@ -16,18 +17,31 @@ function LinkForm() {
   }
   
   return (
-    <form onSubmit={handleSubmit}>
+  <div className='container'>
+
+<center>
+       <h2>Review Hub</h2>
+<form onSubmit={handleSubmit}>
       <label>
-        Paste links here:
+       <h3>Insert links to pages with reviews here </h3>
         <input type="text" name="linkInput" />
-      </label>
-      <button type="submit">Submit</button>
+      
       {links.map((link) => (
         <div key={link}>
           <a href={link}>{link}</a>
         </div>
       ))}
+        <div className='design'>
+        <h4>Customer pains:</h4> <br></br>
+      <h5>Questions:</h5> 
+      <h6>Ideas:</h6>
+        </div>
+      <button type='submit'>START</button>
+      </label>
+     
     </form>
+   </center>
+  </div>
   );
 }
 
